@@ -1,7 +1,6 @@
 // Create the script tag, set the appropriate attributes
-console.log(process.env.API_KEY);
 var script = document.createElement('script');
-script.src = 'https://maps.googleapis.com/maps/api/js?key=" + process.env.API_KEY + "&callback=initMap';
+script.src = 'https://maps.googleapis.com/maps/api/js?key=' + process.env.API_KEY + '&callback=initMap';
 
 script.defer = true;
 script.async = true;
