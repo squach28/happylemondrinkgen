@@ -13,9 +13,9 @@ let listOfDrinks = ["Green Tea with Salted Cheese" , "Black Tea with Salted Chee
                     "Honey Green Tea" , "Light Oolong Tea", "Freshly Squeezed Lemon Green Tea" , "Freshly Squeezed Lemon Black Tea",
                     "Freshly Squeezed Lemon Oolong Tea", "Okinawa Fresh Milk with Boba"];
 
-let listOfPics = ["pictures/dab.jpg", "pictures/thanos.gif", "pictures/azumarill.jpg", "pictures/hahayes.jpg", "pictures/hangrycorgi.jpg",
-                  "pictures/hehedoge.jpg", "pictures/longshibe.jpg", "pictures/lovedoge.jpg", "pictures/pikachu.jpg", "pictures/smileydoge.jpg",
-                  "pictures/wooloo.jpg", "pictures/beegyoshi.png", "pictures/scareddog.jpg", "pictures/closecat.jpg", "pictures/thiccseel.jpg"];
+                    let listOfPics = ["./pictures/dab.jpg", "./pictures/thanos.gif", "./pictures/azumarill.jpg", "./pictures/hahayes.jpg", "./pictures/hangrycorgi.jpg",
+                    "./pictures/hehedoge.jpg", "./pictures/longshibe.jpg", "./pictures/lovedoge.jpg", "./pictures/pikachu.jpg", "./pictures/smileydoge.jpg",
+                    "./pictures/wooloo.jpg", "./pictures/beegyoshi.png", "./pictures/scareddog.jpg", "./pictures/closecat.jpg", "./pictures/thiccseel.jpg"];
 
 let listOfToppings = ["Boba", "Lychee Jelly", "Lychee Jello", "Red Bean", "Pudding", "Taro", "Aloe", "Grass Jelly", "Puff Cream", "Crystal Boba",
                       "Mango Boba", "Salted Cheese", "Tiramisu Salted Cheese", "Mango Chunks"];
