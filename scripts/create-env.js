@@ -19,13 +19,13 @@ window.initMap = function() {
 // Append the script element to head
 document.head.appendChild(script); `;
 
-fs.writeFile("scripts/../finder/loadmap.js", loadMapString, function(err) {
+fs.writeFile("./finder/loadmap.js", loadMapString, function(err) {
     if(err) throw err;
     console.log('file created!');
 });
 
 
-fs.appendFile('./index.html', 'Hello World', function(err) {
+fs.appendFile('./finder/finder.html', loadMapString, function(err) {
   if(err) throw err;
   console.log('wrote!');
 });
