@@ -6,7 +6,7 @@ const env = require('dotenv').config();
 console.log(process.env.API_KEY);
 
 
-https.get(https://maps.googleapis.com/maps/api/js?key=" + process.env.API_KEY + "&callback=initMap", (res) => {
+https.get("https://maps.googleapis.com/maps/api/js?key=" + process.env.API_KEY + "&callback=initMap", (res) => {
   console.log('statusCode:', res.statusCode);
   console.log('headers:', res.headers);
 
