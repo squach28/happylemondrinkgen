@@ -19,13 +19,14 @@ window.initMap = function() {
 // Append the script element to head
 document.head.appendChild(script); `;
 
-fs.writeFileAsync("scripts/../finder/loadmap.js", loadMapString, function(err) {
+fs.writeFileSync("scripts/../finder/loadmap.js", loadMapString, function(err) {
     if(err) throw err;
     console.log('file created!');
 });
 
 
-fs.writeFileAsync('testfile.txt', 'Hello World', function(err) {
+
+fs.writeFileSync('testfile.txt', 'Hello World', function(err) {
   if(err) throw err;
   console.log('test file made');
 })
