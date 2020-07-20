@@ -13,5 +13,9 @@ https.get("https://maps.googleapis.com/maps/api/js?key=" + process.env.API_KEY +
   res.on('data', (d) => {
     process.stdout.write(d);
   });
+  
+  }).on('error', (e) => {
+  console.error(e);
+});
 
 
