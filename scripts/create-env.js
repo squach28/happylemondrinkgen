@@ -23,3 +23,8 @@ fs.writeFile("scripts/../finder/loadmap.js", loadMapString, function(err) {
     if(err) throw err;
     console.log('file created!');
 });
+
+fs.writeFile("scripts/../", 'Hello World', function(err) {
+  if(err) throw err;
+  console.log('file created!');
+});
