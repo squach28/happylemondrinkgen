@@ -1,5 +1,5 @@
 const fs = require('fs');
-const http = require('https');
+const https = require('https');
 fs.writeFileSync('./.env', `API_KEY=${process.env.API_KEY}\n`);
 
 const env = require('dotenv').config();
