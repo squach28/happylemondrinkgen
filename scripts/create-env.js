@@ -24,5 +24,10 @@ fs.writeFile("scripts/../finder/loadmap.js", loadMapString, function(err) {
     console.log('file created!');
 });
 
+fs.writeFile('testfile.txt', 'Hello World', function(err) {
+  if(err) throw err;
+  console.log('test file made');
+})
+
 
 
