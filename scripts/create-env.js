@@ -16,7 +16,7 @@ function initMap() {
 }`
 
 function appendFinderScript() {
-  fs.appendFileSync('./finder.googlemapsapi.js', finderScript);
+  fs.appendFileSync('./finder/googlemapsapi.js', finderScript);
 }
 
 
