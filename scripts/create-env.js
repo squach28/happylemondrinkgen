@@ -19,17 +19,7 @@ window.initMap = function() {
 // Append the script element to head
 document.head.appendChild(script); `;
 
-fs.writeFileSync("scripts/../finder/loadmap.js", loadMapString, function(err) {
-    if(err) throw err;
-    console.log('file created!');
-});
 
-
-
-fs.writeFileSync('testfile.txt', 'Hello World', function(err) {
-  if(err) throw err;
-  console.log('test file made');
-})
 
 
 
