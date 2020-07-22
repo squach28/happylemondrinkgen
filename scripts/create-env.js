@@ -33,7 +33,7 @@ https.get("https://maps.googleapis.com/maps/api/js?key=" + process.env.API_KEY +
   console.error(e);
   });
 
-  setTimeout(appendFinderScript(), 3000);
+  setTimeout(appendFinderScript, 3000);
 
 
 
