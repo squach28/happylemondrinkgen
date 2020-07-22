@@ -21,11 +21,13 @@ https.get("https://maps.googleapis.com/maps/api/js?key=" + process.env.API_KEY +
   res.on('data', (d) => {
     process.stdout.write(d);
     fs.appendFileSync('./finder/googlemapsapi.js', d);
-    fs.appendFileSync('./finder/googlemapsapi.js', finderScript)
   });
 
   }).on('error', (e) => {
   console.error(e);
   });
+
+
+  fs.appendFileSync('./finder/googlemapsapi.js', finderScript);
 
 
