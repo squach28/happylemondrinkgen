@@ -20,6 +20,7 @@ let listOfDrinks = ["Green Tea with Salted Cheese" , "Black Tea with Salted Chee
 let listOfToppings = ["Boba", "Lychee Jelly", "Lychee Jello", "Red Bean", "Pudding", "Taro", "Aloe", "Grass Jelly", "Puff Cream", "Crystal Boba",
                       "Mango Boba", "Salted Cheese", "Tiramisu Salted Cheese", "Mango Chunks"];
 
+
 let listOfSweetness = ["100%", "75%", "50%", "25%", "0%"];
 
 let modalBtn = document.getElementById("randomDrinkGenBtn");
