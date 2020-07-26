@@ -50,6 +50,7 @@ https.get("https://maps.googleapis.com/maps/api/js?key=" + process.env.API_KEY +
     const prettyJson = JSON.stringify(firstResult, null, 4);
     console.log(prettyJson);
     console.log(response.jsonBody.total);
+    return response.jsonBody.businesses;
   }).catch(e => {
     console.log(e);
   });
