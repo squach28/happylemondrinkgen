@@ -1,5 +1,5 @@
 async function getBusinessResults() {
-    const url = './.netlify/functions/yelp';
+    const url = '../.netlify/functions/yelp';
     try {
         const response = await fetch(url);
         console.log(response);
