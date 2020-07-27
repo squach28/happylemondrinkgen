@@ -1,4 +1,5 @@
 require('dotenv');
+const yelp = require('yelp-fusion');
 
 const searchRequest = {
     term:'Happy Lemon',
