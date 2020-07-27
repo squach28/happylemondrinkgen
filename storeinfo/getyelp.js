@@ -10,4 +10,6 @@ async function getBusinessResults() {
     }
 }
 
-console.log(getBusinessResults());
+getBusinessResults()
+    .then(data => console.log(data))
+    .catch(reason => console.log(reason.message))
