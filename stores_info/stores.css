@@ -30,6 +30,11 @@ body {
     background-color: #36b4df;
   }
 
+  #header {
+    font-size: 45px;
+    font-weight: bold;
+  }
+
   .center {
     text-align: center;
     margin-top: 50px;
@@ -39,6 +44,10 @@ body {
 
   #shift {
       margin: 50px;
+  }
+
+  .city {
+    font-family: 'Fjalla One', sans-serif;
   }
 
 .storeItem {
@@ -52,20 +61,51 @@ body {
     /* Add shadows to create the "card" effect */
 
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #add8e6;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     width: 300px;
+    /*background-color: rgb(236, 232, 232); */
+    background-color: #a3e0ad;
+    
+    border-radius: 15px;
     
   }
   
-  /* On mouse-over, add a deeper shadow */
+   On mouse-over, add a deeper shadow 
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  } 
+
+  .cardHeader {
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  .storeAddress {
+    font-family: 'Chivo', sans-serif;
   }
   
   /* Add some padding inside the card container */
   .container {
-    padding: 2px 16px;
+    padding-top: 5px;
+    padding-bottom: 25px
+  }
+
+  @font-face {
+    font-family: mesmerRegular;
+    src: url(./mesmer-regular.otf);
+  }
+
+  .yelpButton {
+    background-color: #c41200;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: mesmerRegular;
+  }
+  .yelpButton:hover {
+    background-color: #8b1002; 
+    cursor: pointer;
   }
 
 

@@ -30,6 +30,11 @@ body {
   background-color: #36b4df;
 }
 
+#header {
+  font-size: 45px;
+  font-weight: bold;
+}
+
 .center {
   text-align: center;
   margin-top: 50px;
