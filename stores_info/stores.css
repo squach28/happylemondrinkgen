@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(252, 252, 98);
+  }
+  
+  #navBar {
+    right: 0px;
+    top: -0px;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #add8e6;
+  }
+  
+  .navBarItem {
+    float: left;
+  }
+  
+  .navBarItemLink {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navBarItemLink:hover {
+    background-color: #36b4df;
+  }
+
+  .center {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  #shift {
+      margin: 50px;
+  }
+
+.storeItem {
+    margin-right: 50px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #add8e6;
+    width: 300px;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+  
+  
