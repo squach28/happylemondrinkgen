@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(252, 252, 98);
+  background-color: #fed500;
 }
 
 #navBar {
@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #add8e6;
+  background-color:#41bce6;
 }
 
 .navBarItem {
@@ -19,16 +19,19 @@ body {
 }
 
 .navBarItemLink {
+  font-family: 'Chilanka', cursive;
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .navBarItemLink:hover {
-  background-color: #36b4df;
-}
+  background-color:#37a3c7;
+} 
 
 #header {
   font-size: 45px;
@@ -53,6 +56,7 @@ body {
   margin  : 5px auto;
   display : block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
 }
 
 #randomDrink {
