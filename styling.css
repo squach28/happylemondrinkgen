@@ -59,6 +59,16 @@ body {
   border-radius: 15px;
 }
 
+#randomDrinkGenBtn:hover {
+  background-color: #723fca;
+  cursor: pointer;
+}
+
+#randomDrinkGenBtn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 #randomDrink {
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
@@ -141,6 +151,12 @@ body {
   margin  : 5px auto;
   display : block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+
+#randomToppingBtn:hover {
+  background-color: #a25faf;
+  cursor: pointer;
 }
 
 #randomSweet{
@@ -162,10 +178,17 @@ body {
   margin  : 5px auto;
   display : block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
 }
 
-.close hover {
+#randomSweetBtn:hover {
+  background-color: #a25faf;
+  cursor: pointer;
+}
+
+.close:hover {
   color: darkgray;
+  cursor: default;
 }
 
 @-webkit-keyframes animatetop {
