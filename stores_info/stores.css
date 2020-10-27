@@ -111,6 +111,11 @@ body {
     cursor: pointer;
   }
 
+  .yelpButton:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
 
   
   
