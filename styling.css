@@ -1,17 +1,17 @@
 body {
-  background-color: #fed500;
+  background-color: #f5f064;
 }
 
 #navBar {
   right: 0px;
   top: -0px;
   list-style-type: none;
-  position: fixed;
+  position: absolute;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#41bce6;
+  background-color: #6b6a4c;
 }
 
 .navBarItem {
@@ -30,7 +30,7 @@ body {
 }
 
 .navBarItemLink:hover {
-  background-color:#37a3c7;
+  background-color: #52513a;
 } 
 
 #header {
